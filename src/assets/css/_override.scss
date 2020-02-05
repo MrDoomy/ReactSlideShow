@@ -1,0 +1,53 @@
+/*********
+ * Table *
+ *********/
+
+.beautify-table {
+  &.custom {
+    padding-top: 75px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+    .column1 {
+      width: 20%;
+    }
+
+    .column2 {
+      width: 40%;
+
+      &.fill {
+        width: 80%;
+      }
+    }
+
+    .column3 {
+      width: 40%;
+    }
+
+    th {
+      font-size: 28px;
+      color: $white;
+      line-height: 2.4;
+      background-color: $react;
+    }
+
+    td {
+      font-size: 25px;
+      color: $black;
+      line-height: 2.4;
+    }
+
+    .beautify-table-body {
+      background-color: $white;
+
+      .alt {
+        background-color: #eee;
+      }
+    }
+  }
+}

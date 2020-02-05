@@ -1,0 +1,65 @@
+/********
+ * Core *
+ ********/
+
+.reveal {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: none;
+  }
+
+  .progress {
+    background: rgba(0, 0, 0, 0.2);
+    color: $react;
+  }
+
+  .pause-overlay {
+    background: $black;
+  }
+
+  table {
+    th,
+    td {
+      border-bottom: 0px;
+    }
+  }
+
+  section {
+    img {
+      padding: 0 2rem 0 2rem;
+      border: 0px;
+      box-shadow: none;
+      height: 240px;
+    }
+  }
+
+  .slide-number {
+    border-radius: 5px;
+  }
+
+  pre {
+    box-shadow: none;
+
+    code {
+      border-radius: 10px;
+      tab-size: 2;
+      font-size: 120%;
+      max-height: 100%;
+    }
+  }
+
+  .left {
+    width: 50%;
+    float: left;
+  }
+
+  .right {
+    width: 50%;
+    float: right;
+  }
+}

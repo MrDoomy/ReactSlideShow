@@ -1,0 +1,60 @@
+/*********
+ * Table *
+ *********/
+
+.table {
+  background-color: $white;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.column1 {
+  width: 20%;
+  padding-left: 40px;
+}
+
+.column2,
+.column3,
+.column4,
+.column5 {
+  width: 20%;
+}
+
+.beautify-table {
+  position: relative;
+  padding-top: 60px;
+
+  &-head {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    th {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+  }
+
+  &-body {
+    max-height: 585px;
+    overflow: auto;
+
+    td {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/**********
+ * Slides *
+ **********/
+
+section {
+  &#title,
+  &#react,
+  &#router,
+  &#redux,
+  &#unit-test {
+    img {
+      background: rgba(255, 255, 255, 0);
+    }
+  }
+
+  &#who-am-i {
+    img {
+      height: 100px;
+    }
+  }
+
+  &#javascript,
+  &#typescript {
+    img {
+      padding: 0px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &#engine {
+    img {
+      height: 160px;
+    }
+  }
+
+  &#editors {
+    img {
+      height: 200px;
+    }
+  }
+
+  &#linter {
+    .clearfix {
+      margin-left: -1rem;
+    }
+  }
+
+  &#design {
+    .clearfix {
+      height: 180px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &#environment {
+    img {
+      height: 220px;
+    }
+  }
+
+  &#mounting {
+    ul {
+      list-style-type: none;
+    }
+  }
+
+  &#concept {
+    img {
+      height: 120px;
+    }
+
+    .clearfix {
+      list-style-type: none;
+    }
+  }
+
+  &#without {
+    img {
+      height: 530px;
+    }
+  }
+
+  &#with {
+    img {
+      height: 560px;
+      margin-right: 80px;
+    }
+  }
+
+  &#virtual-dom {
+    img {
+      height: 720px;
+    }
+  }
+}
