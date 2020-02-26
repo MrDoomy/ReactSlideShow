@@ -24,6 +24,5 @@
     "prop-types": "^15.7.0",
     "sass": "^1.25.0"
   },
-  "license": "GPL-3.0",
-  "private": true
+  "license": "GPL-3.0"
 }

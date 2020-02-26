@@ -6,7 +6,7 @@ const CODE_LEFT = `
       value: 0
     };
 
-    const increment = () => {
+    increment = () => {
       this.setState({ value: this.state.value + 1 });
     };
 
@@ -16,10 +16,10 @@ const CODE_LEFT = `
       return (
         <div>
           <h1>Compteur</h1>
-          {render({
+          {this.props.render({
             value,
-            increment,
-            val => this.setState({
+            increment: this.increment,
+            decrement: val => this.setState({
               value: value - val
             })
           })}
