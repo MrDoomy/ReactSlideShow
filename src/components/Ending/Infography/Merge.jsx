@@ -77,7 +77,7 @@ export default function Merge() {
         <span className="light-green">Besoin</span> des employeurs Vs.{' '}
         <span className="light-blue">Connaissances</span> des développeurs
       </h3>
-      <canvas id="merge-chart" style={{ height: '60vh', width: '100vw' }} />
+      <canvas id="merge-chart" style={{ display: 'block', height: 720, width: 1920 }} />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   let album = {};
 
   album = {
@@ -30,7 +30,7 @@ export default function Item() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   class Counter extends Component {
     constructor(props) {
       super(props);
@@ -41,7 +41,7 @@ export default function State() {
       <div>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

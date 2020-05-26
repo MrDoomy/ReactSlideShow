@@ -1,7 +1,6 @@
 import React from 'react';
-import classNames from 'classnames';
 import imgAtom from '../../../assets/img/atom.png';
-import imgSublimeText from '../../../assets/img/sublimetext.png';
+import imgSublimeText from '../../../assets/img/sublime-text.png';
 import imgVsCode from '../../../assets/img/vscode.png';
 import imgWebStorm from '../../../assets/img/webstorm.png';
 
@@ -66,7 +65,7 @@ export default function Editors() {
           <table>
             <tbody>
               {ROWS.map(({ editor, pros, cons }, idx) => (
-                <tr key={idx} className={classNames('body', { alt: idx % 2 !== 0 })}>
+                <tr key={idx} className="body">
                   <td className="column1">
                     <strong>{editor}</strong>
                   </td>

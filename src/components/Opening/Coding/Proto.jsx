@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   /* Constructeur */
   var Object = function(one, two) {
 
@@ -37,7 +37,7 @@ export default function Proto() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

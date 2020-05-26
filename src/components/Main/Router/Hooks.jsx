@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React from 'react';
   import { useParams, useHistory } from 'react-router-dom';
 
@@ -29,7 +29,7 @@ export default function Hooks() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import { arrayOf, string, func } from 'prop-types';
 
   const marginAndPadding = {
@@ -42,7 +42,7 @@ export default function Stateless() {
       <div>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

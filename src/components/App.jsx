@@ -2,10 +2,9 @@ import React, { useEffect } from 'react';
 import { number, bool } from 'prop-types';
 
 // RevealJS
-import { initialize } from 'reveal.js/js/reveal';
-
-// HighLightJS
-import { initHighlightingOnLoad as initializeOnLoad } from 'highlight.js/lib';
+import Reveal from 'reveal.js';
+import HL from 'reveal.js/plugin/highlight/highlight';
+import MD from 'reveal.js/plugin/markdown/markdown';
 
 // Slides
 import {
@@ -54,7 +53,7 @@ function App(props) {
   const { width, height, margin, controls, slideNumber, history, mouseWheel } = props;
 
   useEffect(() => {
-    initialize({
+    Reveal.initialize({
       width,
       height,
       margin,
@@ -62,10 +61,10 @@ function App(props) {
       slideNumber,
       history,
       mouseWheel,
-      transition: 'slide'
+      transition: 'slide',
+      fragmentInURL: false,
+      plugins: [HL, MD]
     });
-
-    initializeOnLoad();
   }, [width, height, margin, controls, slideNumber, history, mouseWheel]);
 
   return (

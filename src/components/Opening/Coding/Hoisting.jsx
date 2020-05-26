@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   'use strict';
   console.log('i:', i);
 
@@ -14,7 +14,7 @@ const CODE_LEFT = `
   execute('Hey);
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   // Compile
   var i;
   function execute(message) {
@@ -42,14 +42,14 @@ export default function Hoisting() {
       <div className="left">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
       <div className="fragment right">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

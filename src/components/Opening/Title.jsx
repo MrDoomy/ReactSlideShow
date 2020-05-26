@@ -7,7 +7,7 @@ export default function Title() {
       <img data-src={imgReact} alt="React" />
       <h2>
         <span className="white">
-          React <small>16.12.0</small>
+          React <small>16.13.0</small>
         </span>
       </h2>
       <h3>

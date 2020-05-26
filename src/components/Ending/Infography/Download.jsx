@@ -5,19 +5,21 @@ import { hexToRgba, configurePie } from '../../../utils';
 const downloadChart = {
   type: 'doughnut',
   data: {
-    labels: ['Angular', 'React', 'Vue'],
+    labels: ['Angular', 'React', 'Vue', 'Svelte'],
     datasets: [
       {
-        data: [1495287, 6878395, 1434999],
+        data: [1644300, 8306838, 1630226, 61056],
         backgroundColor: [
           hexToRgba('#f44336', 0.5),
           hexToRgba('#00bcd4', 0.5),
-          hexToRgba('#4caf50', 0.5)
+          hexToRgba('#4caf50', 0.5),
+          hexToRgba('#ff9800', 0.5)
         ],
         borderColor: [
           hexToRgba('#f44336', 1),
           hexToRgba('#00bcd4', 1),
-          hexToRgba('#4caf50', 1)
+          hexToRgba('#4caf50', 1),
+          hexToRgba('#ff9800', 1)
         ]
       }
     ]
@@ -46,14 +48,15 @@ export default function Download() {
       <h3>
         <span className="red">Angular</span> Vs.{' '}
         <span className="cyan">React</span> Vs.{' '}
-        <span className="green">Vue</span>
+        <span className="green">Vue</span> Vs.{' '}
+        <span className="orange">Svelte</span>
       </h3>
-      <canvas id="download-chart" style={{ height: '60vh', width: '100vw' }} />
+      <canvas id="download-chart" style={{ display: 'block', height: 720, width: 1920 }} />
       <div className="">
         <br />
         <span className="blue-grey">
           <em>
-            <small>* 23 Février 2020</small>
+            <small>* 10 Mai 2020</small>
           </em>
         </span>
       </div>

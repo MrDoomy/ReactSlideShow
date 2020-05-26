@@ -5,7 +5,7 @@ import imgFirefox from '../../../assets/img/firefox.png';
 import imgOpera from '../../../assets/img/opera.png';
 import imgSafari from '../../../assets/img/safari.png';
 
-const CODE = `
+const SNIPPET = `
   (function() {
     'use strict';
 
@@ -26,7 +26,7 @@ export default function Environment() {
         Préférez le mode <code>strict</code> lors de l'exécution pour la remontée d'erreurs
       </p>
       <pre>
-        <code className="javascript">{CODE}</code>
+        <code className="javascript">{SNIPPET}</code>
       </pre>
     </section>
   );

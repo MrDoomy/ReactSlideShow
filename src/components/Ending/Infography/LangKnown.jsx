@@ -81,7 +81,7 @@ export default function LangKnown() {
         Connaissances en <span className="light-green">2017</span> Vs.{' '}
         <span className="light-blue">2018</span>
       </h3>
-      <canvas id="lang-known-chart" style={{ height: '60vh', width: '100vw' }} />
+      <canvas id="lang-known-chart" style={{ display: 'block', height: 720, width: 1920 }} />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   export default class Counter extends Component {
     state = {
       value: 0
@@ -29,7 +29,7 @@ const CODE_LEFT = `
   }
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   import Counter from './Counter';
 
   class ButtonGroup extends Component {
@@ -62,14 +62,14 @@ export default function RenderProps() {
       <div className="left">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
       <div className="fragment right">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

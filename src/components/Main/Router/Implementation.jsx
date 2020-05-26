@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_TOP = `
+const SNIPPET_TOP = `
   import React from 'react';
   import NavBar from './NavBar';
   import Routing from './Routing';
@@ -15,7 +15,7 @@ const CODE_TOP = `
   }
   `;
 
-const CODE_BOTTOM = `
+const SNIPPET_BOTTOM = `
   import React from 'react';
   import { render } from 'react-dom';
   import { BrowserRouter as Router } from 'react-router-dom';
@@ -38,7 +38,7 @@ export default function Implementation() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE_TOP}
+          {SNIPPET_TOP}
         </code>
       </pre>
       <div className="fragment">
@@ -47,7 +47,7 @@ export default function Implementation() {
         </p>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_BOTTOM}
+            {SNIPPET_BOTTOM}
           </code>
         </pre>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React, { Suspense } from 'react';
   import { Switch, Route } from 'react-router-dom';
   import Home from './Home';
@@ -40,7 +40,7 @@ export default function Mapping() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

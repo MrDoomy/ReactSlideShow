@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   var myVar;
 
   var fourtyTwo = 42;
@@ -16,7 +16,7 @@ const CODE_LEFT = `
   console.log(truthy && 'It Works'); // It Works
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   let myVar;
   myVar = null;
 
@@ -62,7 +62,7 @@ export default function Base() {
         <h3>ES5</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
@@ -70,7 +70,7 @@ export default function Base() {
         <h3>ES6+</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

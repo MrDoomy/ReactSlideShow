@@ -2,16 +2,18 @@
  * Table *
  *********/
 
+$box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+
 .beautify-table {
   &.custom {
     padding-top: 75px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: $box-shadow;
+    -moz-box-shadow: $box-shadow;
+    -webkit-box-shadow: $box-shadow;
+    -o-box-shadow: $box-shadow;
+    -ms-box-shadow: $box-shadow;
 
     .column1 {
       width: 20%;
@@ -30,22 +32,22 @@
     }
 
     th {
-      font-size: 28px;
-      color: $white;
+      font-size: 1.75rem;
+      color: $light;
       line-height: 2.4;
-      background-color: $react;
+      background-color: $secondary;
     }
 
     td {
-      font-size: 25px;
-      color: $black;
+      font-size: 1.5rem;
+      color: $dark;
       line-height: 2.4;
     }
 
     .beautify-table-body {
-      background-color: $white;
+      background-color: $light;
 
-      .alt {
+      tr:nth-child(2n) {
         background-color: #eee;
       }
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   var numeric = 7;
   var tab = [3, '5', 7];
 
@@ -26,7 +26,7 @@ const CODE_LEFT = `
   log(tab); /* Log : [3, '5'] */
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   const numeric = 7;
   let tab = [3, '5', 7];
 
@@ -63,7 +63,7 @@ export default function Func() {
         <h3>ES5</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
@@ -71,7 +71,7 @@ export default function Func() {
         <h3>ES6+</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

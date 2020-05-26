@@ -3,11 +3,11 @@ import { render } from 'react-dom';
 import App from './components/App';
 
 // RevealJS
-import 'reveal.js/css/reveal.css';
-import 'reveal.js/css/theme/solarized.css';
+import 'reveal.js/dist/reveal.css';
+import 'reveal.js/dist/theme/solarized.css';
 
 // HighLightJS
-import 'highlight.js/styles/darkula.css';
+import 'highlight.js/styles/solarized-dark.css';
 
 // StyleSheet
 import './assets/css/index.css';

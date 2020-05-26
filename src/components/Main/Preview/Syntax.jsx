@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React from 'react';
 
   const userName = 'Rick';
@@ -26,7 +26,7 @@ export default function Syntax() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

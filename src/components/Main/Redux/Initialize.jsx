@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React from 'react';
   import { render } from 'react-dom';
   import { Provider } from 'react-redux';
@@ -25,7 +25,7 @@ export default function Initialize() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

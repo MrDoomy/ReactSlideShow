@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   npx create-react-app my-project
   `;
 
@@ -20,7 +20,7 @@ export default function Cli() {
         Autorise l'éjection pour la personnalisation Webpack
       </p>
       <pre>
-        <code className="shell">{CODE}</code>
+        <code className="shell">{SNIPPET}</code>
       </pre>
     </section>
   );

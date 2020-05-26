@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import { CREATE_TASK, COMPLETE_TASK, CLEAR_TASKS } from './actions';
 
   export default function tasks (state = [], action) {
@@ -37,7 +37,7 @@ export default function Reducer() {
       <div>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

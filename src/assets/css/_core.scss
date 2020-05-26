@@ -2,7 +2,14 @@
  * Core *
  ********/
 
+$blue: #40b3ff;
+$grey: #676778;
+
 .reveal {
+  ::selection {
+    background: $primary;
+  }
+
   h1,
   h2,
   h3,
@@ -14,12 +21,11 @@
   }
 
   .progress {
-    background: rgba(0, 0, 0, 0.2);
-    color: $react;
+    color: $secondary;
   }
 
   .pause-overlay {
-    background: $black;
+    background: $dark;
   }
 
   table {
@@ -61,5 +67,13 @@
   .right {
     width: 50%;
     float: right;
+  }
+
+  a {
+    color: $blue;
+
+    &:hover {
+      color: $grey;
+    }
   }
 }

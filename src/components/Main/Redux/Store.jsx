@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import { combineReducers, createStore, applyMiddleware } from 'redux';
   import thunk from 'redux-thunk';
   import tasks from './tasks';
@@ -23,7 +23,7 @@ export default function Store() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

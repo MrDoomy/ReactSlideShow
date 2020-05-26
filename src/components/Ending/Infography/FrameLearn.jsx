@@ -56,7 +56,7 @@ export default function FrameLearn() {
   return (
     <section id="frame-learn">
       <h2>Quels frameworks les développeurs prévoient-ils d'apprendre ?</h2>
-      <canvas id="frame-learn-chart" style={{ height: '50vh', width: '100vw' }} />
+      <canvas id="frame-learn-chart" style={{ display: 'block', height: 720, width: 1920 }} />
     </section>
   );
 }

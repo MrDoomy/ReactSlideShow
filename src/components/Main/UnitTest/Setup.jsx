@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CODE_TOP = `
+const SNIPPET_TOP = `
   npm install --save-dev @testing-library/react @testing-library/jest-dom
   `;
 
-const CODE_BOTTOM = `
+const SNIPPET_BOTTOM = `
   import '@testing-library/jest-dom/extend-expect';
   `;
 
@@ -15,7 +15,7 @@ export default function Setup() {
       <p>Récupération des librairies utilitaires :</p>
       <pre>
         <code className="shell" contentEditable suppressContentEditableWarning>
-          {CODE_TOP}
+          {SNIPPET_TOP}
         </code>
       </pre>
       <div className="fragment">
@@ -24,7 +24,7 @@ export default function Setup() {
         </p>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_BOTTOM}
+            {SNIPPET_BOTTOM}
           </code>
         </pre>
       </div>

@@ -4,7 +4,7 @@ const strike = {
   textDecoration: 'line-through'
 };
 
-const CODE = `
+const SNIPPET = `
   <!DOCTYPE html>
   <html>
     <head></head>
@@ -34,7 +34,7 @@ export default function Mounting() {
         <h3>HTML</h3>
         <pre>
           <code className="html" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Engine from './Engine';
+import Runtime from './Runtime';
 import Editors from './Editors';
 import VersionManager from './VersionManager';
 import DepManager from './DepManager';
@@ -17,7 +17,7 @@ export default function Tools() {
           <span className="white">Outils</span>
         </h1>
       </section>
-      <Engine />
+      <Runtime />
       <Editors />
       <VersionManager />
       <DepManager />

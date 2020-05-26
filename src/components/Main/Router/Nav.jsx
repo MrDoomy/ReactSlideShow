@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React, { Component } from 'react';
   import { Link, withRouter } from 'react-router-dom';
 
@@ -44,7 +44,7 @@ export default function Nav() {
       <div className="fragment">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React from 'react';
   import { render, fireEvent } from '@testing-library/react';
   import App from '../App';
@@ -41,7 +41,7 @@ export default function DescribeComponent() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

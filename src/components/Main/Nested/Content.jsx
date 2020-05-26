@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   import { Child } from './Child';
 
   class Parent extends Component {
@@ -14,7 +14,7 @@ const CODE_LEFT = `
   }
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   export const Child(props) {
     const { children } = props;
 
@@ -38,7 +38,7 @@ export default function Content() {
         <h3>Parent</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
@@ -46,7 +46,7 @@ export default function Content() {
         <h3>Enfant</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React, { useState, useEffect } from 'react';
 
   function Counter(props) {
@@ -30,7 +30,7 @@ export default function Hooks() {
       <div>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

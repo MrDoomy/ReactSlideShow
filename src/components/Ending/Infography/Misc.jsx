@@ -50,7 +50,7 @@ export default function Misc() {
   return (
     <section id="misc">
       <h2>Quel style de musique écouter lorsqu'on code ?</h2>
-      <canvas id="misc-chart" style={{ height: '50vh', width: '100vw' }} />
+      <canvas id="misc-chart" style={{ display: 'block', height: 720, width: 1920 }} />
     </section>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React, { Component } from 'react';
 
   const userName = 'Rick';
@@ -24,7 +24,7 @@ export default function JsXml() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
       <div className="fragment">

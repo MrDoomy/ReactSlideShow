@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import * as Actions from '../actions';
   import reducer from '../reducer';
   import * as Selectors from '../selectors';
@@ -38,7 +38,7 @@ export default function DescribeStore() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   export const getTasks = state => state.tasks || [];
 
   export const getTaskById = id => state => getTasks(state).find(task => task.id === id);
@@ -19,7 +19,7 @@ export default function Selectors() {
       <div>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE}
+            {SNIPPET}
           </code>
         </pre>
       </div>

@@ -1,5 +1,7 @@
 # SlideShow
 
+> Version 1.1.0
+
 ## Explanation
 
 SlideShow Support For The **React** Framework Made With RevealJS (FR)

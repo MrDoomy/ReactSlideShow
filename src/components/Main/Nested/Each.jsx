@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   class Listing extends Component {
     render() {
       return (
@@ -31,7 +31,7 @@ export default function Each() {
       <p>Construction dynamique de noeud DOM</p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
       <div className="fragment">

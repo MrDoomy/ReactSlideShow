@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 
 const HEADERS = [
   {
@@ -68,7 +67,7 @@ export default function Appendix() {
           <table>
             <tbody>
               {ROWS.map(({ source, link }, idx) => (
-                <tr key={idx} className={classNames('body', { alt: idx % 2 !== 0 })}>
+                <tr key={idx} className="body">
                   <td className="column1">{source}</td>
                   <td className="column2 fill">
                     <a href={link} target="_blank" rel="noopener noreferrer">

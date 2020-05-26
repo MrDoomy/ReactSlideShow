@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   import React, { Component } from 'react';
 
   class HelloWorld extends Component {
@@ -22,7 +22,7 @@ const CODE_LEFT = `
   }
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   import React, { useEffect } from 'react';
 
   function HelloWorld() {
@@ -51,7 +51,7 @@ export default function UseCase() {
         <h3>Stateful</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
@@ -59,7 +59,7 @@ export default function UseCase() {
         <h3>Stateless</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

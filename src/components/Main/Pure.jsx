@@ -4,7 +4,7 @@ const strike = {
   textDecoration: 'line-through'
 };
 
-const CODE = `
+const SNIPPET = `
   import React, { PureComponent } from 'react';
 
   class PureGreeting extends PureComponent {
@@ -41,7 +41,7 @@ export default function Pure() {
       </ol>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

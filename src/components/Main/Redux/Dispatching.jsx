@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React, { Component } from 'react';
   import { connect } from 'react-redux';
   import { completeTask } from './actions';
@@ -48,7 +48,7 @@ export default function Dispatching() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

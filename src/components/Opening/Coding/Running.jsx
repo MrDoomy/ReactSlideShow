@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   var foo = 1;
     
   function bar() {
@@ -14,7 +14,7 @@ const CODE_LEFT = `
   bar();
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   var foo = 1;
 
   function bar() {
@@ -58,7 +58,7 @@ export default function Running() {
         <h3>Pré-Compilation</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_LEFT}
+            {SNIPPET_LEFT}
           </code>
         </pre>
       </div>
@@ -66,7 +66,7 @@ export default function Running() {
         <h3>Post-Compilation</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
-            {CODE_RIGHT}
+            {SNIPPET_RIGHT}
           </code>
         </pre>
       </div>

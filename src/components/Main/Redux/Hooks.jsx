@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CODE = `
+const SNIPPET = `
   import React from 'react';
   import { useDispatch, useSelector } from 'react-redux';
   import { clearTask } from './actions';
@@ -38,7 +38,7 @@ export default function Hooks() {
       </p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
-          {CODE}
+          {SNIPPET}
         </code>
       </pre>
     </section>

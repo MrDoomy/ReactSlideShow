@@ -2,9 +2,9 @@ import React from 'react';
 import imgNode from '../../../assets/img/node.png';
 import imgNpm from '../../../assets/img/npm.png';
 
-export default function Engine() {
+export default function Runtime() {
   return (
-    <section id="engine">
+    <section id="runtime">
       <img data-src={imgNode} alt="NodeJS" />
       <img data-src={imgNpm} alt="NPM" />
       <p>
@@ -18,7 +18,7 @@ export default function Engine() {
         <br />
         Contient nativement un serveur Web
         <br />
-        Dernière version <strong>LTS</strong> : 12.14.x
+        Dernière version <strong>LTS</strong> : 12.16.x
         <br />
         Gestionnaire de paquets <small>(officiel)</small>
       </p>
