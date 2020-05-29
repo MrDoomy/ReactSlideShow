@@ -5,7 +5,7 @@ import Preview from './Preview';
 import Initialize from './Initialize';
 import StateProps from './StateProps';
 import Nested from './Nested';
-import Design from './Design';
+import DesignPattern from './DesignPattern';
 import ShortCut from './ShortCut';
 import LifeCycle from './LifeCycle';
 import Pure from './Pure';
@@ -23,7 +23,7 @@ export {
   Initialize,
   StateProps,
   Nested,
-  Design,
+  DesignPattern,
   ShortCut,
   LifeCycle,
   Pure,

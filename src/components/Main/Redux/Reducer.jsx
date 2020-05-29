@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SNIPPET = `
-  import { CREATE_TASK, COMPLETE_TASK, CLEAR_TASKS } from './actions';
+  import { CREATE_TASK, COMPLETE_TASK, CLEAR_TASK } from './actions';
 
   export default function tasks (state = [], action) {
     switch (action.type) {
@@ -17,7 +17,7 @@ const SNIPPET = `
         });
 
       case CLEAR_TASK:
-        return state.filter(task => task.id !== payload);
+        return state.filter(task => task.id !== action.payload);
 
       default:
         return state;

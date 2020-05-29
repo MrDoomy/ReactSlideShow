@@ -46,7 +46,7 @@ export default function Hoisting() {
           </code>
         </pre>
       </div>
-      <div className="fragment right">
+      <div className="right fragment">
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>
             {SNIPPET_RIGHT}

@@ -43,7 +43,7 @@ export default function Dispatching() {
         <strong>React Redux</strong> permet de se connecter au{' '}
         <strong>store</strong> dans un composant
         <br />
-        Cette connexion est indispensable pour pouvoir dispatcher des{' '}
+        Cette connexion est indispensable pour pouvoir <em>dispatch</em>er des{' '}
         <em>actions</em>
       </p>
       <pre>

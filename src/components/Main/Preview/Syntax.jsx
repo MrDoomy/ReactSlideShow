@@ -9,7 +9,12 @@ const SNIPPET = `
     render() {
       return React.createElement(
         'span',
-        { style: { color: '#2a2c2e' }},
+        {
+          style: {
+            color: '#2a2c2e',
+            textDecoration: 'underline'
+          }
+        },
         \`Hi $\{userName} !\`
       );
     }

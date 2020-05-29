@@ -8,7 +8,9 @@ const SNIPPET = `
   class HelloWorld extends Component {
     render() {
       return (
-        <span style={{ color: '#2a2c2e' }}>Hi {userName} !</span>
+        <span style={{ color: '#2a2c2e', textDecoration: 'underline' }}>
+          Hi {userName} !
+        </span>
       );
     }
   }

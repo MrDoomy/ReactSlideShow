@@ -66,7 +66,7 @@ export default function Base() {
           </code>
         </pre>
       </div>
-      <div className="fragment right">
+      <div className="right fragment">
         <h3>ES6+</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>

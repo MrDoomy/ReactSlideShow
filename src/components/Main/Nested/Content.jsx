@@ -42,7 +42,7 @@ export default function Content() {
           </code>
         </pre>
       </div>
-      <div className="fragment right">
+      <div className="right fragment">
         <h3>Enfant</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>

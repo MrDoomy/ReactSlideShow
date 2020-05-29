@@ -1,25 +1,45 @@
 import React from 'react';
 
-const SNIPPET = `
-  /* Constructeur */
-  var Object = function(one, two) {
+const SNIPPET_LEFT = `
+  var Cat = function(name, color, length = 0) {
+    Animal.call(this, name, color);
+    this.length = length;
+  }
 
-    /* Super */
-    Parent.call(this, one, two);
+  Cat.prototype.meow = function() {
+    for (var i = 0; i < this.length; i++) {
+      console.log('Meow!');
+    }
+  }
 
-    /* Attributs */
-    this.one = one;
-    this.two = two;
-  };
+  var myCat = new Cat('Mocha', 'B&W', 5);
 
-  /* Methode */
-  Object.prototype.diff = function() {
-    return (this.one - this.two);
-  };
+  myCat.toString();
 
-  var instance = new Object(6, 4);
+  // Affichage 'Meow!' x5 dans la console
+  myCat.meow();
+  `;
 
-  console.log(instance.diff()); // Affiche '2' dans la console
+const SNIPPET_RIGHT = `
+  class Cat extends Animal {
+    constructor(name, color, length = 0) {
+      super(name, color);
+      this.length = length;
+    }
+
+    meow() {
+      for (let i = 0; i < this.length; i++) {
+        console.log('Meow!');
+      }
+    }
+  }
+
+  const myCat = new Cat('Mocha', 'B&W', 5);
+
+  myCat.toString();
+
+  // Affichage 'Meow!' x5 dans la console
+  myCat.meow();
   `;
 
 export default function Proto() {
@@ -29,17 +49,26 @@ export default function Proto() {
       <p>
         Manière de faire de l'héritage en <strong>Javascript</strong>
         <br />
-        C'est l'équivalent d'une classe en Java
+        C'est l'équivalent d'une classe en POO
         <br />
         Une sorte de patron qu'un objet peut utiliser
-        <br />
-        Complexe mais puissant dans son usage
       </p>
-      <pre>
-        <code className="javascript" contentEditable suppressContentEditableWarning>
-          {SNIPPET}
-        </code>
-      </pre>
+      <div className="left">
+        <h3>ES5</h3>
+        <pre>
+          <code className="javascript" contentEditable suppressContentEditableWarning>
+            {SNIPPET_LEFT}
+          </code>
+        </pre>
+      </div>
+      <div className="right fragment">
+        <h3>ES6+</h3>
+        <pre>
+          <code className="javascript" contentEditable suppressContentEditableWarning>
+            {SNIPPET_RIGHT}
+          </code>
+        </pre>
+      </div>
     </section>
   );
 }

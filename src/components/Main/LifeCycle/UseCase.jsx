@@ -55,7 +55,7 @@ export default function UseCase() {
           </code>
         </pre>
       </div>
-      <div className="fragment right">
+      <div className="right fragment">
         <h3>Stateless</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>

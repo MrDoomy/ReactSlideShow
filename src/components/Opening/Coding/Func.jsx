@@ -1,55 +1,51 @@
 import React from 'react';
 
 const SNIPPET_LEFT = `
-  var numeric = 7;
-  var tab = [3, '5', 7];
+  var tab = [3, 5, 7, 9];
 
   /* Assignation */
-  var remove = function(array, value) {
-    var size = array.length;
+  var isSumEven = function(array) {
+    var sum = 0;
 
-    for (var i = size - 1; i >= 0; i--) {
-      if (array[i] === value) {
-        var index = array.indexOf(value);
-        array.splice(index, 1);
-      }
+    for (var i = 0; i < array.length; i++) {
+      sum = sum + array[i];
     }
-  };
 
-  remove(tab, numeric);
+    return sum % 2 === 0;
+  }
+
+  var result = isSumEven(tab);
 
   /* Déclaration */
   function log(obj) {
-    console.log('Log : ' + obj);
+    console.log('Result: ' + obj);
   };
 
-  log(tab); /* Log : [3, '5'] */
+  log(result); /* Result: true */
   `;
 
 const SNIPPET_RIGHT = `
-  const numeric = 7;
-  let tab = [3, '5', 7];
+  const tab = [3, 5, 7, 9];
 
   /* Assignation */
-  const remove = (array, value) => {
-    let size = array.length;
+  const isSumEven = array => {
+    let sum = 0;
 
-    for (let i = size - 1; i >= 0; i--) {
-      if (array[i] === value) {
-        const index = array.indexOf(value);
-        array.splice(index, 1);
-      }
+    for (let i = 0; i < array.length; i++) {
+      sum += array[i];
     }
+
+    return sum % 2 === 0;
   };
 
-  remove(tab, numeric);
+  const result = isSumEven(tab);
 
   /* Déclaration */
   function log(obj) {
-    console.log(\`Log : \${obj}\`);
+    console.log(\`Result: \${obj}\`);
   };
 
-  log(tab); /* Log : [3, '5'] */
+  log(tab); /* Result: true */
   `;
 
 export default function Func() {
@@ -67,7 +63,7 @@ export default function Func() {
           </code>
         </pre>
       </div>
-      <div className="fragment right">
+      <div className="right fragment">
         <h3>ES6+</h3>
         <pre>
           <code className="javascript" contentEditable suppressContentEditableWarning>

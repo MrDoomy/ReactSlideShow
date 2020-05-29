@@ -63,7 +63,7 @@ export default function Appendix() {
             </thead>
           </table>
         </div>
-        <div className="beautify-table-body" style={{ maxHeight: '100%' }}>
+        <div className="beautify-table-body">
           <table>
             <tbody>
               {ROWS.map(({ source, link }, idx) => (

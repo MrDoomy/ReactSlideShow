@@ -15,11 +15,11 @@ export default function Concept() {
           <li>Flux</li>
           <li>Fluxxor</li>
           <li>MobX</li>
+          <li>NgRx</li>
+          <li>Overmind</li>
           <li>
             <strong>Redux</strong>
           </li>
-          <li>Reflux</li>
-          <li>Relay</li>
           <li>Vuex</li>
           <li className="clearfix">...</li>
         </ul>

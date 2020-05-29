@@ -28,7 +28,7 @@ export default function Each() {
   return (
     <section id="each">
       <h2>For Each</h2>
-      <p>Construction dynamique de noeud DOM</p>
+      <p>Construction dynamique de nœud DOM</p>
       <pre>
         <code className="javascript" contentEditable suppressContentEditableWarning>
           {SNIPPET}

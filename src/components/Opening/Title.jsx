@@ -1,10 +1,11 @@
 import React from 'react';
-import imgReact from '../../assets/img/react.png';
+// import imgReact from '../../assets/img/react.png';
+import imgSlideShow from '../../assets/img/slideshow.png';
 
 export default function Title() {
   return (
     <section id="title" data-background-color="#2a2c2e">
-      <img data-src={imgReact} alt="React" />
+      <img data-src={imgSlideShow} alt="SlideShow" />
       <h2>
         <span className="white">
           React <small>16.13.0</small>

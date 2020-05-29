@@ -16,9 +16,9 @@ const SNIPPET = `
 
   delete album.genre;
 
-  album.genre = ['Electronic', 'Downtempo', 'Experimental'];
+  album.genre = ['Electro', 'Downtempo'];
 
-  console.log(album['genre'][0]); // Affiche 'Electronic' dans la console
+  console.log(album['genre'][0]); // Affiche 'Electro' dans la console
   `;
 
 export default function Item() {

@@ -28,7 +28,7 @@ import {
   Initialize,
   StateProps,
   Nested,
-  Design,
+  DesignPattern,
   ShortCut,
   LifeCycle,
   Pure,
@@ -64,6 +64,13 @@ function App(props) {
       transition: 'slide',
       fragmentInURL: false,
       plugins: [HL, MD]
+    }).then(() => {
+      try {
+        const slideNumber = document.getElementsByClassName('slide-number')[0];
+        slideNumber.addEventListener('click', () => Reveal.toggleOverview());
+      } catch (e) {
+        console.log(e);
+      }
     });
   }, [width, height, margin, controls, slideNumber, history, mouseWheel]);
 
@@ -87,7 +94,7 @@ function App(props) {
         <Initialize hidden />
         <StateProps />
         <Nested hidden />
-        <Design />
+        <DesignPattern />
         <ShortCut hidden />
         <LifeCycle />
         <Pure />
